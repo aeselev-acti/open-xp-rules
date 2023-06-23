@@ -1,0 +1,18 @@
+Updated: 26.12.2022
+ObjectId: LOC-CR-521342220
+ContentAutoName: WScriptBypassUAC
+ExpertContext:
+    Created: 07.06.2023
+    Updated: 13.06.2023
+    KnowledgeHolders:
+        - aeselev_acti
+    DataSources:
+        - Provider: Microsoft-Windows-Sysmon
+          EventID:
+              - 1
+              - 11
+ContentRelations:
+    Implements:
+        ATTACK:
+            privilege-escalation:
+                - T1134.001
